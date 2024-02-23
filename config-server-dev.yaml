@@ -1,0 +1,6 @@
+
+db:
+  host: 127.0.0.1
+  port: 5432
+  schema: vikings_dev
+  url: jdbc:postgresql://${db.host}:${db.port}/${db.schema}
